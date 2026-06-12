@@ -1,145 +1,147 @@
 # OIBSIP - Oasis Infobyte Data Science Internship
 
-This repository contains the projects completed as part of the Oasis Infobyte Data Science Internship Program.
+## Overview
 
----
-
-## About
-
-The internship focuses on applying Data Science and Machine Learning concepts to real-world datasets through practical projects involving data analysis, visualization, prediction, and model development.
+This repository contains the projects completed during the Oasis Infobyte Data Science Internship Program. The projects focus on data analysis, machine learning, predictive modeling, and natural language processing using Python and various data science libraries.
 
 ---
 
 # Task 1: Iris Flower Classification
 
 ## Objective
-
-Build a Machine Learning model to classify Iris flowers into three species:
-
-- Setosa
-- Versicolor
-- Virginica
-
-based on flower measurements.
+Build a Machine Learning model to classify Iris flowers into three species: Setosa, Versicolor, and Virginica based on flower measurements.
 
 ## Technologies Used
-
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
-- Google Colab
 
 ## Project Workflow
-
 - Data Loading
 - Data Exploration
 - Exploratory Data Analysis (EDA)
-- Feature Correlation Analysis
-- Model Training using Random Forest Classifier
-- Performance Evaluation
 - Feature Importance Analysis
+- Model Training using Random Forest Classifier
+- Model Evaluation
+- Confusion Matrix Analysis
 
-## Results
-
-- Achieved 100% accuracy on the test dataset.
-- Successfully classified all Iris species.
-- Identified the most important flower features influencing classification.
+## Result
+The Random Forest Classifier achieved **100% accuracy** on the test dataset, successfully classifying all Iris flower species.
 
 ---
 
 # Task 2: Unemployment Analysis with Python
 
 ## Objective
-
-Analyze unemployment trends in India using Python and gain insights through data visualization and exploratory data analysis.
+Analyze unemployment trends in India and understand the impact of economic conditions through data visualization and statistical analysis.
 
 ## Technologies Used
-
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Google Colab
 
 ## Project Workflow
-
 - Data Cleaning
 - Missing Value Handling
+- Date Conversion
 - Exploratory Data Analysis
-- Regional Unemployment Analysis
-- Urban vs Rural Comparison
-- Correlation Analysis
-- Data Visualization
+- Regional Analysis
+- Time Series Visualization
+- Unemployment Trend Analysis
 
-## Results
-
-- Identified regions with higher unemployment rates.
-- Compared unemployment patterns across different areas.
-- Analyzed relationships between unemployment, employment, and labour participation rates.
+## Result
+Generated meaningful insights into unemployment patterns across different regions and time periods using various visualizations.
 
 ---
 
 # Task 3: Car Price Prediction with Machine Learning
 
 ## Objective
-
-Build a Machine Learning model capable of predicting the selling price of a car based on various features such as age, fuel type, transmission type, and present market value.
+Develop a Machine Learning model capable of predicting the selling price of used cars based on vehicle attributes.
 
 ## Technologies Used
-
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
-- Google Colab
 
 ## Project Workflow
-
-- Data Loading and Exploration
-- Data Visualization
+- Data Cleaning
 - Feature Engineering
-- Data Preprocessing
+- Exploratory Data Analysis
+- Correlation Analysis
 - Train-Test Split
-- Random Forest Regression
+- Model Training
 - Model Evaluation
-- Price Prediction Analysis
 
-## Results
-
-- Achieved an R² Score of 0.96.
-- Obtained a low Mean Absolute Error (MAE).
-- Successfully predicted car selling prices with high accuracy.
+## Result
+The model achieved an **R² Score of approximately 0.96**, indicating excellent predictive performance for car price estimation.
 
 ---
 
-# Repository Structure
+# Task 4: Email Spam Detection with Machine Learning
+
+## Objective
+Build a Machine Learning model to classify email messages as Spam or Ham (Not Spam).
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- TF-IDF Vectorization
+- Natural Language Processing (NLP)
+
+## Project Workflow
+- Data Cleaning
+- Duplicate Removal
+- Label Encoding
+- Exploratory Data Analysis
+- Text Preprocessing
+- TF-IDF Feature Extraction
+- Train-Test Split
+- Model Training using Multinomial Naive Bayes
+- Model Evaluation
+- Confusion Matrix Analysis
+
+## Result
+The model achieved an **accuracy of 97.58%**, demonstrating excellent performance in detecting spam messages.
+
+---
+
+## Repository Structure
 
 ```text
 OIBSIP
+│
 ├── README.md
 ├── iris_flower_classification.ipynb
 ├── unemployment_analysis.ipynb
-└── car_price_prediction.ipynb
+├── car_price_prediction.ipynb
+└── email_spam_detection.ipynb
 ```
 
 ---
 
-## Tools & Libraries
+## Skills Demonstrated
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Google Colab
-- GitHub
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Feature Engineering
+- Machine Learning Classification
+- Machine Learning Regression
+- Natural Language Processing (NLP)
+- Model Evaluation and Performance Analysis
 
 ---
 
@@ -147,4 +149,7 @@ OIBSIP
 
 **Karthikeyan R**
 
-Oasis Infobyte Data Science Intern
+Data Science Intern  
+Oasis Infobyte Internship Program
+
+GitHub: https://github.com/karthi040506
